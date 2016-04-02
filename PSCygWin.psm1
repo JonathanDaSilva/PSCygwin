@@ -12,3 +12,6 @@ function Invoke-Cygwin
 
   C:\cygwin\bin\bash.exe --login -c "cd $path; $name $arg"
 }
+
+
+Export-ModuleMember Invoke-Cygwin
